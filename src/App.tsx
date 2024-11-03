@@ -1,4 +1,3 @@
-import React from 'react'
 import DiverScroll from './components/DiverScroll'
 
 const App = () => {
