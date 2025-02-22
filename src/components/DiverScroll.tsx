@@ -238,7 +238,7 @@ export default function DiverScroll() {
           ))}
 
           {/* 深度表示 */}
-          <div className="text-2xl text-white">↓ 深海への旅 ↓</div>
+          <div className="text-2xl text-white">↓ スクロールして深海へ ↓</div>
           {Array.from({ length: 24 }).map((_, i) => (
             <div key={i} className="text-white/70 text-xl">
               深度 {i * 500}m
